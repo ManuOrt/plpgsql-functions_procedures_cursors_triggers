@@ -34,3 +34,12 @@ SELECT get_average_age();
 CALL get_procedure_person()
 ```
 ![procedure_photo](/img/Screenshot_2.png "procedure_photo")
+
+### cursor.sql
+- 
+
+### trigger.sql
+- We create a function called person_update_trigger_function that will be executed each time an update is made in the person_log table
+- The function updates the person_log table with the values: name, age, and update_at.
+- With the AFTER UPDATE we specify that the trigger will be executed after an update has been performed on the table.
+- With the FOR EACH ROW we say that it must be executed for each row contained in the table.
