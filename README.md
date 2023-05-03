@@ -35,8 +35,10 @@ CALL get_procedure_person()
 ```
 ![procedure_photo](/img/Screenshot_2.png "procedure_photo")
 
-### cursor.sql
-- 
+### cursors.sql
+- We have created a function get_age(integer) that will print the people that are in the table with a specific age that we give it by parameter.
+- We use the cursor to be able to go through all the rows and to be able to make the concatenation of the name and the age of the person.
+![cursor_photo](/img/Screenshot_3.png "cursor_photo")
 
 ### trigger.sql
 - We create a function called person_update_trigger_function that will be executed each time an update is made in the person_log table
